@@ -1,0 +1,44 @@
+header {
+  background-color: #012d63;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_container img {
+  width: 100px;
+  height: 50px;
+}
+
+.header_nav,
+.header_lang {
+  display: flex;
+  gap: 29px;
+}
+
+.header_right {
+  display: flex;
+  gap: 73px;
+}
+
+.header_nav--item {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  text-align: left;
+  color: #c7c7c7;
+}
+
+.header_nav li:first-child a, .header_lang li:last-child a {
+  font-weight: 400;
+  color: white;
+}

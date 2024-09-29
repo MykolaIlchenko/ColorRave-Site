@@ -1,0 +1,332 @@
+.main_first--section {
+  background-image: url("../images/Group\ 37\ \(1\)\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main_first--section img {
+  padding-top: 94px;
+  padding-left: 15px;
+}
+
+.main_first--title {
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 191.95px;
+  text-align: left;
+  color: white;
+}
+
+.main_first--subtitle {
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 95.98px;
+  text-align: left;
+  color: white;
+  margin-bottom: 12px;
+  margin-top: -25px;
+}
+
+.main_first--text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  color: white;
+  max-width: 508px;
+  margin-bottom: 41px;
+}
+
+.main_first--btn {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: white;
+  background-color: #8e32c6;
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  border: 0;
+  transition: 1s;
+}
+
+.main_first--btn--wrapper {
+  padding-bottom: 183px;
+}
+
+.main_first--btn:hover {
+  transition: 1s;
+  background-color: #a04cd4;
+  cursor: pointer;
+}
+
+.main_second--section {
+  background-image: url("../images/Group\ 8\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_second--section .main_container {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--cards {
+  display: flex;
+  padding: 25px 50px;
+  border: 5px solid #8e32c6;
+  justify-content: center;
+  gap: 95px;
+}
+
+.main_second--card {
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_second--title {
+  margin-bottom: 4px;
+  max-width: 161px;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  text-align: center;
+  color: white;
+}
+
+.main_second--card:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.main_second--card:not(:last-child) {
+  padding-right: 50px;
+}
+
+.main_third--section {
+  background-image: url("../images/Group\ 6\ 1.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.bag_flower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.main_third--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+.main_third--cards {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+  padding-bottom: 114px;
+}
+
+.main_third--card {
+  padding: 49px 14px 29px 14px;
+  border-radius: 15px;
+}
+
+.main_third--card:first-child {
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 30px 0px -13px #533978;
+  box-shadow: 0px 14px 0px -5px #7b54b2;
+}
+
+.main_third--card:nth-child(2) {
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 30px 0px -13px #61337c;
+  box-shadow: 0px 14px 0px -5px #9159b1;
+}
+
+.main_third--card:nth-child(3) {
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 30px 0px -13px #732f26;
+  box-shadow: 0px 14px 0px -5px #b95a4c;
+}
+
+.main_third--card--text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: white;
+  max-width: 228px;
+}
+
+.main_third--card--subtext {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #d8d8d8;
+  margin-top: 8px;
+  margin-bottom: 47px;
+  display: inline-block;
+}
+
+.main_third--person--info {
+  display: flex;
+  gap: 5px;
+}
+
+.main_third--person--name {
+  margin-bottom: 1px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: white;
+}
+
+.main_third--person--date {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+.main_fourth--section {
+  background-image: url("../images/Group\ 2\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_fourth--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: white;
+  padding-top: 21px;
+  padding-bottom: 33px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  padding-bottom: 37px;
+}
+
+.form_first--line {
+  background-color: white;
+  max-width: 690px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form_first--input {
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 28px;
+  color: #959595;
+}
+
+.form_first--input::placeholder {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+  text-align: left;
+}
+
+.form_first--btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding-right: 78px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 32.81px;
+  text-align: left;
+  color: #959595;
+}
+
+.form_input {
+  width: 580px;
+  border-radius: 25px;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  border: 0;
+  font-size: 24px;
+}
+
+.form_submit--btn {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: white;
+  width: 248px;
+  height: 68px;
+  border-radius: 16px;
+  background-color: #8E32C6;
+  border: 0;
+  transition: 1s;
+}
+
+.form_submit--btn:hover {
+  transition: 1s;
+  background-color: #a04cd4;
+  cursor: pointer;
+}
